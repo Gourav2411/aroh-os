@@ -1,0 +1,40 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.keystore
+secrets/
+
+# Device and build artefacts
+build/
+dist/
+out/
+artifacts/
+downloads/
+*.img
+*.iso
+*.bin
+*.zip
+*.tar
+*.tar.gz
+
+# Captured device data
+device-dumps/
+logs/
+crash-dumps/
+
+# Tooling
+.cache/
+.venv/
+__pycache__/
+node_modules/
+target/
+
+# Editors and operating systems
+.DS_Store
+.idea/
+.vscode/
+*.swp
